@@ -140,7 +140,7 @@ figure {
 fieldset {
   padding: 0.35em 0.625em 0.75em;
   margin: 0 2px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid #FFEFA2;
 }
 
 legend {
@@ -172,7 +172,15 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
+  color: black;
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background-color: #ededed;
+  font-family: Century;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 button[disabled],
@@ -306,7 +314,7 @@ body {
   font-family: "Futura", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: black;
+  color: yellow;
   background-image:url('../img/kelley.jpg'); no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -390,12 +398,12 @@ hr {
   border: 0;
 }
 
-h1 .purple {
-  color: #3C0140;
+h1 .skyblue {
+  color: #00F4F7;
 }
 
 h1 .pink {
-  color: #B00374;
+  color: #F92498;
 }
 
 
@@ -415,7 +423,10 @@ h6,
   font-family: "Futura", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: black;
+  color: #FFE772;
+  text-shadow: 0 0 3px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 3px #000;
+  -webkit-text-shadow: 0 0 3px #000;
 }
 
 h1 small,
@@ -1890,6 +1901,7 @@ label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #FFEFA2;
 }
 
 input[type="search"] {
@@ -1956,7 +1968,7 @@ output {
   background-color: #ffffff;
   background-image: none;
   border: 1px solid #cccccc;
-  border-radius: 4px;
+  border-radius: 10px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -3549,7 +3561,7 @@ input[type="button"].btn-block {
   margin: 2px 0 0;
   font-size: 14px;
   list-style: none;
-  background-color: #ffffff;
+  background-color: #FFEFA2;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -3576,7 +3588,7 @@ input[type="button"].btn-block {
   clear: both;
   font-weight: normal;
   line-height: 1.428571429;
-  color: #333333;
+  color: #FFEFA2;
   white-space: nowrap;
 }
 
